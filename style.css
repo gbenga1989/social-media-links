@@ -1,0 +1,80 @@
+:root{
+  --background-color:#141414;
+  --profilebg-color:#1F1F1F;
+  --london-color:#C4F82A;
+  --text-color:#C4F82A;
+  --btnbg-color:#333333;
+}
+
+*,
+::before,
+::after{
+box-sizing:border-box;
+}
+
+
+body{
+  background-color: var(--background-color);
+  color: white;
+}
+
+section{
+  padding-top: 300px;
+}
+.card{
+  background-color:#1F1F1F;
+  height: 100vh;
+  text-align: center;
+  margin:0 auto;
+  max-width: 384px;
+  max-height: 611px;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  
+}
+
+button{
+margin-bottom: 16px;
+padding: 12px 90px 12px 90px;
+border-radius: 8px;
+text-align: center;
+font-family: "inter";
+font-weight: 700;
+font-size: 14px;
+color: white;
+background-color: #333333;
+box-shadow: none;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.name{
+  font-family:"inter",sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.location{
+  color: var(--london-color);
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.profession{
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+button:hover{
+  background-color: var(--london-color);
+  color: black;
+}
